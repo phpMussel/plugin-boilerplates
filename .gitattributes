@@ -1,0 +1,26 @@
+# phpMussel .gitattributes file.
+# phpMussel repository can be found here:
+# https://github.com/Maikuolan/phpMussel/
+
+# Written based on the .gitattributes guide available from:
+# https://help.github.com/articles/dealing-with-line-endings/
+
+* text eol=lf
+*.ini text eol=crlf
+*.txt text eol=crlf
+*.cvd binary
+*.dat binary
+*.exe binary
+*.gif binary
+*.gz binary
+*.jpeg binary
+*.jpg binary
+*.ole binary
+*.pdf binary
+*.png binary
+*.rar binary
+*.rtf binary
+*.swf binary
+*.tar binary
+*.xdp binary
+*.zip binary
