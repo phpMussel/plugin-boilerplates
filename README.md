@@ -10,17 +10,17 @@ This repository, "phpMussel-plugin-boilerplate-v1", is a repository for the phpM
 
 The main repository: [phpMussel](https://github.com/Maikuolan/phpMussel).
 
-The themes repository: [phpMussel-themes](https://github.com/DanielRuf/phpMussel-themes).
+The themes repository: [phpMussel-themes](https://github.com/phpMussel/phpMussel-themes).
 
-This repository: [phpMussel-plugin-boilerplate-v1](https://github.com/Maikuolan/phpMussel-plugin-boilerplate-v1).
+This repository: [phpMussel-plugin-boilerplate-v1](https://github.com/phpMussel/phpMussel-plugin-boilerplate-v1).
 
-The v0.x.x plugin boilerplate (deprecated): [phpMussel-plugin-boilerplate](https://github.com/Maikuolan/phpMussel-plugin-boilerplate).
+The v0.x.x plugin boilerplate (deprecated): [phpMussel-plugin-boilerplate-v0](https://github.com/phpMussel/phpMussel-plugin-boilerplate-v0).
 
 ---
 
 ### **Known plugins list:**
 
-[phpMussel-plugin-notifications](https://github.com/Maikuolan/phpMussel-plugin-notifications).
+[phpMussel-plugin-notifications](https://github.com/phpMussel/phpMussel-plugin-notifications).
 
 ---
 
