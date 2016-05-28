@@ -6,22 +6,22 @@ An ideal solution for shared hosting environments, where it's often not possible
 
 ## **What's this repository for?**
 
-This repository, "phpMussel-plugin-boilerplate-v1", is a repository for the phpMussel v1.x.x plugin boilerplate.
+This repository, "plugin-boilerplate-v1", is a repository for the phpMussel v1.x.x plugin boilerplate.
 
-The main repository: [phpMussel](https://github.com/Maikuolan/phpMussel).
+The core phpMussel repository: [phpMussel](https://github.com/Maikuolan/phpMussel).
 
-The themes repository: [phpMussel-themes](https://github.com/phpMussel/phpMussel-themes).
+The themes repository: [themes](https://github.com/phpMussel/themes).
 
-This repository: [phpMussel-plugin-boilerplate-v1](https://github.com/phpMussel/phpMussel-plugin-boilerplate-v1).
+This repository: [plugin-boilerplate-v1](https://github.com/phpMussel/plugin-boilerplate-v1).
 
-The v0.x.x plugin boilerplate (deprecated): [phpMussel-plugin-boilerplate-v0](https://github.com/phpMussel/phpMussel-plugin-boilerplate-v0).
+The v0.x.x plugin boilerplate (deprecated): [plugin-boilerplate-v0](https://github.com/phpMussel/plugin-boilerplate-v0).
 
 ---
 
 ### **Known plugins list:**
 
-[phpMussel-plugin-notifications](https://github.com/phpMussel/phpMussel-plugin-notifications).
+[plugin-notifications](https://github.com/phpMussel/plugin-notifications).
 
 ---
 
-*This file, "README.md", last edited: 24th March 2016 (2016.03.24).*
+*This file, "README.md", last edited: 29th May 2016 (2016.05.29).*

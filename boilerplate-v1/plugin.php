@@ -3,14 +3,14 @@
  * Plugin boilerplate for phpMussel.
  *
  * PLUGIN INFORMATION BEGIN
- *         Plugin Name: Boilerplate-v1.
+ *         Plugin Name: Boilerplate v1.
  *       Plugin Author: Caleb M / Maikuolan.
- *      Plugin Version: 1.0.0-DEV
- *    Download Address: https://github.com/Maikuolan/phpMussel-plugin-boilerplate-v1
+ *      Plugin Version: 1.0.1
+ *    Download Address: https://github.com/phpMussel/plugin-boilerplate-v1
  *     Min. Compatible: 1.0.0-DEV
  *     Max. Compatible: -
  *        Tested up to: 1.0.0-DEV
- *       Last Modified: 2016.03.24
+ *       Last Modified: 2016.05.29
  * PLUGIN INFORMATION END
  *
  * This is a boilerplate that can be used for writing plugins for phpMussel.
