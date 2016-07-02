@@ -20,10 +20,10 @@ The v0.x.x plugin boilerplate (deprecated): [plugin-boilerplate-v0](https://gith
 
 ### **Known plugins list:**
 
-[plugin-legacy](https://github.com/phpMussel/plugin-legacy).
-[plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql).
-[plugin-notifications](https://github.com/phpMussel/plugin-notifications).
-[plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson).
+- [plugin-legacy](https://github.com/phpMussel/plugin-legacy).
+- [plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql).
+- [plugin-notifications](https://github.com/phpMussel/plugin-notifications).
+- [plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson).
 
 ---
 
