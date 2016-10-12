@@ -5,12 +5,12 @@
  * PLUGIN INFORMATION BEGIN
  *         Plugin Name: Boilerplate v1.
  *       Plugin Author: Caleb M / Maikuolan.
- *      Plugin Version: 1.0.1
+ *      Plugin Version: 1.0.2
  *    Download Address: https://github.com/phpMussel/plugin-boilerplate-v1
  *     Min. Compatible: 1.0.0-DEV
  *     Max. Compatible: -
  *        Tested up to: 1.0.0-DEV
- *       Last Modified: 2016.05.29
+ *       Last Modified: 2016.10.12
  * PLUGIN INFORMATION END
  *
  * This is a boilerplate that can be used for writing plugins for phpMussel.
@@ -109,12 +109,6 @@ $phpMussel['Register_Hook']('HelloWorld', 'before_html_out');
  * all of your plugin files and data.
  *
  * Currently available hooks and their description (listed by execution order):
- *
- * browser_log_commands   - Executed during checks for browser log commands.
- *                          The scope is global.
- *
- * browser_commands       - Executed during checks for browser commands. The
- *                          scope is global.
  *
  * before_scan            - Executed during scan iteration, before beginning
  *                          each individual scan (not accounting for archives).
