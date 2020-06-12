@@ -24,7 +24,7 @@ phpMussel v3 is currently in alpha stage of development, and doesn't yet support
 
 ### **Known plugins list:**
 
-⬇Stage reached⬇ ➡Major version➡ | v0 | v1 | v2 | v3
+⬇Plugin name⬇ ➡Major version compatibility➡ | v0 | v1 | v2 | v3
 :--|:-:|:-:|:-:|:-:
 [plugin-legacy](https://github.com/phpMussel/plugin-legacy) (DEPRECATED) | | ✔ | |
 [plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql) | | ✔ | ✔ |
