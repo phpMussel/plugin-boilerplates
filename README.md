@@ -24,14 +24,15 @@ phpMussel v3 is currently in alpha stage of development, and doesn't yet support
 
 ### **Known plugins list:**
 
-⬇Plugin name⬇ ➡Major version compatibility➡ | v0 | v1 | v2 | v3
-:--|:-:|:-:|:-:|:-:
-[plugin-legacy](https://github.com/phpMussel/plugin-legacy) (DEPRECATED) | | ✔ | |
-[plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql) | | ✔ | ✔ |
-[plugin-notifications](https://github.com/phpMussel/plugin-notifications) (DEPRECATED) | ✔ | ✔ | ✔ |
-[plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson) | | ✔ | ✔ |
+➡Major&nbsp;version&nbsp;compatibility➡<br />⬇Plugin&nbsp;name⬇ | v0 | v1 | v2 | v3 | *Notes*
+:--|:-:|:-:|:-:|:-:|:--
+[plugin-legacy](https://github.com/phpMussel/plugin-legacy) | | ✔ | | | *Needed only by users migrating from v0 to v1; Completely useless otherwise.*
+[plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql) | | ✔ | ✔ | |
+[plugin-notifications](https://github.com/phpMussel/plugin-notifications) | ✔ | ✔ | ✔ | | *For ≥v3, use "Plugin-PHPMailer" instead.*
+[plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson) | | ✔ | ✔ | |
+[Plugin-PHPMailer](https://github.com/phpMussel/Plugin-PHPMailer) | | | | ✔ | *Replaces "plugin-notifications" (≤v2).*
 
 ---
 
 
-Last Updated: 12 June 2020 (2020.06.12).
+Last Updated: 4 July 2020 (2020.07.04).

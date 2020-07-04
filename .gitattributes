@@ -1,14 +1,8 @@
-# phpMussel .gitattributes file.
-# phpMussel repository can be found here:
-# https://github.com/phpMussel/phpMussel/
-
-# Written based on the .gitattributes guide available from:
+# Refer to:
 # https://help.github.com/articles/dealing-with-line-endings/
 
 * text eol=lf
 *.ini text eol=crlf
-*.txt text eol=crlf
-*.cvd binary
 *.dat binary
 *.exe binary
 *.gif binary
@@ -24,3 +18,12 @@
 *.tar binary
 *.xdp binary
 *.zip binary
+
+# Refer to:
+# https://github.com/github/linguist
+
+*.md linguist-documentation
+*.txt linguist-documentation
+
+.github/* -linguist-detectable
+tests/* -linguist-detectable
