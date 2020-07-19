@@ -13,12 +13,12 @@ class BoilerplateV3
     private $Loader;
 
     /**
-     * @var string The path to the linker asset files.
+     * @var string The path to the boilerplate asset files.
      */
     private $AssetsPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'assets' . DIRECTORY_SEPARATOR;
 
     /**
-     * @var string The path to the linker L10N files.
+     * @var string The path to the boilerplate L10N files.
      */
     private $L10NPath = __DIR__ . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'l10n' . DIRECTORY_SEPARATOR;
 
@@ -50,10 +50,14 @@ class BoilerplateV3
     }
 
     /**
-     * Parses the ScanResultsText through ROT13 after scanning finishes.
+     * Parses the ScanResultsText through ROT13 and adds a "Hello there, buddy"
+     * message after scanning finishes.
      *
-     * Totally useless, really. Pointless to use in production. But, useful as
-     * a super simplistic demonstration of how to write phpMussel v3 plugins.
+     * Totally useless, really. Pointless to use in production, of course. But,
+     * useful as a super simplistic demonstration of how to write phpMussel v3
+     * plugins. By looking through this boilerplate code, seeing what it actually
+     * does in action to the phpMussel codebase, it might inspire some ideas for
+     * others to come up with some more useful things. :-)
      */
     public function __invoke(string $NotUsed): bool
     {
@@ -63,7 +67,7 @@ class BoilerplateV3
 
         /** Iterate through the ScanResultsText. */
         foreach ($this->Loader->ScanResultsText as &$Results) {
-            $Results = str_rot13($Results);
+            $Results = $this->Loader->L10N->getString('example_l10n_message') . $this->Loader->L10N->getString('grammar_spacer') . str_rot13($Results);
         }
 
         /** Exit. */

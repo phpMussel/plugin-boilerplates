@@ -29,10 +29,10 @@ phpMussel v3 is currently in alpha stage of development, and doesn't yet support
 [plugin-legacy](https://github.com/phpMussel/plugin-legacy) | | ✔ | | | *Needed only by users migrating from v0 to v1; Completely useless otherwise.*
 [plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql) | | ✔ | ✔ | |
 [plugin-notifications](https://github.com/phpMussel/plugin-notifications) | ✔ | ✔ | ✔ | | *For ≥v3, use "Plugin-PHPMailer" instead.*
-[plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson) | | ✔ | ✔ | |
+[plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson) | | ✔ | ✔ | | *For ≥v3, the desired functionality can be achieved at the implementation. [Examples](https://github.com/phpMussel/Examples) are available.*
 [Plugin-PHPMailer](https://github.com/phpMussel/Plugin-PHPMailer) | | | | ✔ | *Replaces "plugin-notifications" (≤v2).*
 
 ---
 
 
-Last Updated: 4 July 2020 (2020.07.04).
+Last Updated: 17 July 2020 (2020.07.17).
