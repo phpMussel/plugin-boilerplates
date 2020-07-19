@@ -1,0 +1,14 @@
+##\
+# Boilerplate configuration defaults file for phpMussel v3.
+##/
+
+boilerplate:
+ example_string_directive:
+  type: "string"
+  default: "Hello World."
+ example_bool_directive:
+  type: "bool"
+  default: false
+ example_int_directive:
+  type: "int"
+  default: 123

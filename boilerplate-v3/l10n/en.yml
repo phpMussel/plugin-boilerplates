@@ -1,0 +1,9 @@
+##\
+# Boilerplate English language data for phpMussel v3.
+##/
+
+config_boilerplate: "Configuration for the phpMussel v3 plugin boilerplate."
+config_boilerplate_example_string_directive: "This is an example configuration directive which accepts a string."
+config_boilerplate_example_bool_directive: "This is an example configuration directive which accepts true/false."
+config_boilerplate_example_int_directive: "This is an example configuration directive which accepts an integer."
+example_l10n_message: "Hello there, buddy."
