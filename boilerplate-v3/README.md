@@ -1,7 +1,5 @@
 ## Boilerplate plugin class for phpMussel v3.
 
-In theory, it should generally be possible to extend phpMussel v3 as to be able to do almost anything which is conceivably possible to do in PHP.
-
 By the fact of your reading of this text and reviewing this boilerplate, I would assume that you're already reasonably familiar with phpMussel v3 from the standpoint of basic installation, usage, and structure. If such is the case, working with this boilerplate should be reasonably straightforward and easy for you. But, if not, I would recommend familiarising yourself with those things first, because going any further with this boilerplate could be potentially confusing and difficult otherwise.
 
 Other than this README, you should see three things in this directory:
@@ -90,6 +88,41 @@ The boilerplate code in this case works by taking advantage of the `__invoke` ma
 ```
 
 If you want, you can append new event handlers to the existing stack for a given event, or replace the entire stack with just your new event, or just outright delete the entire stack, or event protect the stack against other, future additions which might otherwise occur at some point in the execution chain. To understand how that works, you can read the documentation for the __*[events orchestrator](https://github.com/Maikuolan/Common/blob/v2/_docs/Events.md)*__.
+
+In theory, it should generally be possible to extend phpMussel v3 as to be able to do almost anything which is conceivably possible to do in PHP.
+
+### Some ideas about the kinds of things you might want to do:
+
+- Use __*[Monolog](https://seldaek.github.io/monolog/)*__ to replace phpMussel's existing logging mechanisms, in order to integrate phpMussel more closely with the logging architecture at your existing projects and apps.
+
+*Example:*
+```PHP
+<?php
+use Monolog\Logger;
+use Monolog\Handler\FirePHPHandler;
+use phpMussel\Core;
+
+$Logger = new Logger('phpMussel_logger');
+$Logger->pushHandler(new FirePHPHandler());
+
+$LoggerEvent = function ($Data) use (&$Logger) {
+    $Logger->info($Data);
+}
+
+$Loader = new Loader();
+$Scanner = new Scanner($Loader);
+
+// Replace the existing event stack for writeToScanLog with our Monolog logger.
+$Loader->Events->addHandler('writeToScanLog', $LoggerEvent, true);
+
+// Destroy event stacks that we don't need anymore (because we're relying on
+// Monolog now, and we're only interested in logging scan events).
+$Loader->Events->destroyEvent('writeToSerialLog');
+$Loader->Events->destroyEvent('writeToUploadsLog');
+$Loader->Events->destroyEvent('writeToPHPMailerEventLog');
+```
+
+*Warning: I haven't tested the above example, and of course, it's only an example, and would likely need to be heavily modified as per your exact needs regardless.*
 
 ### Currently supported events:
 
