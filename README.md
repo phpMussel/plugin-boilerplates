@@ -21,7 +21,7 @@ Because phpMussel v1 and v2 are very similarly structured, the same boilerplate 
 
 phpMussel v3 is the current latest available major version.
 
-The boilerplate code for each major version respectively in contained within its own directory.
+The boilerplate code for each major version is contained within its respective directories.
 
 ---
 
