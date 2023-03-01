@@ -14,13 +14,9 @@ An ideal solution for shared hosting environments, where it's often not possible
 
 This repository, "[plugin-boilerplates](https://github.com/phpMussel/plugin-boilerplates)", contains boilerplate code which can be used to create new plugins for phpMussel.
 
-Because phpMussel v0 is deprecated, and because support will no longer be provided for that major version, boilerplate code for that major version has been entirely removed.
-
-Because phpMussel v1 and v2 are very similarly structured, the same boilerplate code can be used for either of those two major versions (hence "boilerplate-v1-or-v2").
+The boilerplate code for each currently supported major version is contained within its respective directory.
 
 phpMussel v3 is the current latest available major version.
-
-The boilerplate code for each major version is contained within its respective directories.
 
 ---
 
@@ -28,7 +24,6 @@ The boilerplate code for each major version is contained within its respective d
 
 ➡Major&nbsp;version&nbsp;compatibility➡<br />⬇Plugin&nbsp;name⬇ | v0 | v1 | v2 | v3 | *Notes*
 :--|:-:|:-:|:-:|:-:|:--
-[plugin-legacy](https://github.com/phpMussel/plugin-legacy) | | ✔ | | | *Needed only by users migrating from v0 to v1; Completely useless otherwise.*
 [plugin-log2mysql](https://github.com/mtrefzer/plugin-log2mysql) | | ✔ | ✔ | |
 [plugin-notifications](https://github.com/phpMussel/plugin-notifications) | ✔ | ✔ | ✔ | | *For ≥v3, use "Plugin-PHPMailer" instead.*
 [plugin-resultAsJson](https://github.com/mtrefzer/plugin-resultAsJson) | | ✔ | ✔ | | *For ≥v3, the desired functionality can be achieved at the implementation. [Examples](https://github.com/phpMussel/Examples) are available.*
@@ -69,4 +64,4 @@ The boilerplate code for each major version is contained within its respective d
 ---
 
 
-Last Updated: 1 March 2022 (2022.03.01).
+Last Updated: 1 March 2023 (2023.03.01).
